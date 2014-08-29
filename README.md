@@ -1,7 +1,7 @@
 ## Node.js w/ Bower & Grunt Dockerfile
 
 
-This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) w/ [Bower](http://bower.io/) & [Grunt](http://gruntjs.com/) for [Docker](https://www.docker.io/)'s [trusted build](https://index.docker.io/u/dockerfile/nodejs-bower-grunt/) published to the public [Docker Registry](https://index.docker.io/).
+This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) w/ [Bower](http://bower.io/) & [Grunt](http://gruntjs.com/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/dockerfile/nodejs-bower-grunt/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
 
 ### Dependencies
@@ -11,9 +11,9 @@ This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) w/ [Bow
 
 ### Installation
 
-1. Install [Docker](https://www.docker.io/).
+1. Install [Docker](https://www.docker.com/).
 
-2. Download [trusted build](https://index.docker.io/u/dockerfile/nodejs-bower-grunt/) from public [Docker Registry](https://index.docker.io/): `docker pull dockerfile/nodejs-bower-grunt`
+2. Download [automated build](https://registry.hub.docker.com/u/dockerfile/nodejs-bower-grunt/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull dockerfile/nodejs-bower-grunt`
 
    (alternatively, you can build an image from Dockerfile: `docker build -t="dockerfile/nodejs-bower-grunt" github.com/dockerfile/nodejs-bower-grunt`)
 
