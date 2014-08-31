@@ -10,9 +10,6 @@ FROM dockerfile/nodejs
 # Install Bower & Grunt
 RUN npm install -g bower grunt-cli
 
-# Define mountable directories.
-VOLUME ["/data"]
-
 # Define working directory.
 WORKDIR /data
 
